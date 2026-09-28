@@ -4,30 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "181.214.1.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime39.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9049,
-      "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
       "server": "213.183.63.60",
       "server_port": 9085,
       "method": "aes-256-cfb",
@@ -35,11 +13,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+      "server": "213.183.63.60",
+      "server_port": 9066,
+      "method": "aes-256-cfb",
+      "password": "2KUaE2a8NWTvuCZ3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
       "server": "213.183.63.60",
       "server_port": 9064,
       "method": "aes-256-cfb",
       "password": "cp8pRSUAyLhTfVWH"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
+      "server": "213.183.63.60",
+      "server_port": 9028,
+      "method": "aes-256-cfb",
+      "password": "9eeJ2fwnZA5Fxgz8"
     },
     {
       "type": "shadowsocks",
@@ -53,17 +47,17 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9061,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "4R3hUfZ2FHhDmNcP"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9028,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "9eeJ2fwnZA5Fxgz8"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
@@ -97,28 +91,6 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-      "server": "172.64.158.146",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9066,
-      "method": "aes-256-cfb",
-      "password": "2KUaE2a8NWTvuCZ3"
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
       "server": "136.175.82.85",
       "server_port": 18775,
       "uuid": "9ae5940b-0278-403d-a1e1-9dddc47bdcf6",
@@ -138,27 +110,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
-      "server": "bg.masterpgd.com",
-      "server_port": 6016,
-      "uuid": "1cc6bd10-e414-4171-9220-09aaba23a6fa",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZqviTSUKpqxl9htoEiix8iIH3lRB6ahvw00btl-HOSk",
-          "short_id": "1779b108c9eb4da7"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -172,10 +123,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe"
       ]
     },
     {
@@ -191,10 +139,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
