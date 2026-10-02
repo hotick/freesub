@@ -23,7 +23,7 @@
         "server_name": "aws.amazon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -44,7 +44,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
