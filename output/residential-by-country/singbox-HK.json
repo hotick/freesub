@@ -6,12 +6,12 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "fc0786a4-tmm5c0-tw2fdz-1s824.nw4.hyhuawei.com",
+      "server": "d280a266-tmm5c0-tzxeoy-hns7.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "6d4abac0-86e6-11ef-83cc-f23c913c8d2b",
+      "password": "6857f1bc-f27b-11ea-87ad-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "fc0786a4-tmm5c0-tw2fdz-1s824.nw4.hyhuawei.com",
+        "server_name": "d280a266-tmm5c0-tzxeoy-hns7.hk3.hyhuawei.com",
         "insecure": true
       }
     },
