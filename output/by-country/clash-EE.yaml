@@ -14,16 +14,6 @@ proxies:
   skip-cert-verify: true
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
   server: 94.183.170.135
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  tls: true
-  servername: estproxy4.lockdwn.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
-  server: 94.183.170.135
   port: 443
   udp: true
   type: vless
@@ -31,15 +21,17 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
-  server: 79.98.37.18
-  port: 2097
+- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
+  server: 94.183.170.135
+  port: 8443
   udp: true
-  type: trojan
-  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-  sni: stoniy.fytpn.com
+  type: vless
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  tls: true
+  servername: estproxy4.lockdwn.com
   skip-cert-verify: false
-- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
+  client-fingerprint: firefox
+- name: 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
   server: 194.26.141.148
   port: 8443
   udp: true
@@ -54,8 +46,8 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
-  server: ee.h1cloud.net
+- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
+  server: 212.87.190.93
   port: 25895
   udp: true
   type: vless
@@ -65,8 +57,8 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
     short-id: a73f0410d728c823
   servername: www.samsung.com
-  client-fingerprint: safari
-- name: 🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe
+  client-fingerprint: firefox
+- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
   server: 93.89.220.37
   port: 443
   udp: true
@@ -90,7 +82,6 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
-  - 🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -102,6 +93,5 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
-  - 🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe
 rules:
 - MATCH,PROXIES
